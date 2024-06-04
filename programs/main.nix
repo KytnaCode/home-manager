@@ -7,5 +7,6 @@
     ./atuin.nix
     ./bat.nix
     ./eza.nix
+    ./fastfetch.nix
   ];
 }
