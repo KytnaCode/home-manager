@@ -6,5 +6,6 @@
     ./tmux.nix
     ./atuin.nix
     ./bat.nix
+    ./eza.nix
   ];
 }
