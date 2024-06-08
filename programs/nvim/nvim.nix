@@ -183,6 +183,11 @@
         config = readConfig "formatter-nvim.lua";
         type = "lua";
       }
+      {
+        plugin = pkgs.vimPlugins.go-nvim;
+        config = setupNoOptions "go";
+        type = "lua";
+      }
     ];
   };
 }
