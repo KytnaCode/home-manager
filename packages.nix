@@ -1,5 +1,8 @@
 { pkgs, ... }: {
   home.packages = with pkgs; [
+    # Social
+    discord
+
     # Games
     lunar-client
 
