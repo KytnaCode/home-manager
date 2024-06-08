@@ -10,5 +10,6 @@
     ./fastfetch.nix
     ./go.nix
     ./ranger.nix
+    ./git.nix
   ];
 }
