@@ -104,7 +104,17 @@
         type = "lua";
       }
       pkgs.vimPlugins.SchemaStore-nvim
-      (pkgs.vimPlugins.nvim-treesitter.withAllGrammars)
+      {
+        plugin = pkgs.vimPlugins.nvim-treesitter.withAllGrammars;
+        config = ''
+          require("nvim-treesitter.configs").setup({
+            highlight = {
+              enable = true,
+            },
+          })
+        '';
+        type = "lua";
+      }
       pkgs.vimPlugins.vim-fugitive
       pkgs.vimPlugins.presence-nvim
       {
