@@ -11,5 +11,7 @@
     nodePackages_latest.bash-language-server
     nodePackages_latest.typescript-language-server
     nixd
-  ];
+
+    ripgrep # required by telescope live grep
+];
 }
