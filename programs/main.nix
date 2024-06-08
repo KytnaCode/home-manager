@@ -9,5 +9,6 @@
     ./eza.nix
     ./fastfetch.nix
     ./go.nix
+    ./ranger.nix
   ];
 }
