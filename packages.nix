@@ -11,5 +11,9 @@
 
     # Fonts
     (nerdfonts.override { fonts = [ "AnonymousPro" ]; })
+
+    # Development
+    nodejs_20
+    typescript
   ];
 }
