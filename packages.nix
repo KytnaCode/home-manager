@@ -6,6 +6,9 @@
     # Games
     lunar-client
 
+    # Personal & Organization
+    obsidian
+
     # Util
     distrobox
 
