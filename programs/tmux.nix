@@ -15,13 +15,8 @@
         plugin = pkgs.tmuxPlugins.catppuccin;
         extraConfig = "set -g @catppuccin_flavour 'latte'";
       }
-      {
-        plugin = pkgs.tmuxPlugins.continuum;
-        extraConfig = "set -g @continuum-boot 'on'";
-      }
       pkgs.tmuxPlugins.fingers
       pkgs.tmuxPlugins.pain-control
-      pkgs.tmuxPlugins.resurrect
       pkgs.tmuxPlugins.tilish
     ];
   };
