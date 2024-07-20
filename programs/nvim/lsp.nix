@@ -11,6 +11,7 @@
     nodePackages_latest.bash-language-server
     nodePackages_latest.typescript-language-server
     vscode-langservers-extracted # CSS
+    tailwindcss-language-server
     nixd
 
     ripgrep # required by telescope live grep

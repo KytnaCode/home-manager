@@ -68,5 +68,8 @@ require("lspconfig").tsserver.setup(onlyCapabilities)
 -- CSS
 require("lspconfig").cssls.setup(onlyCapabilities)
 
+-- Tailwind CSS
+require("lspconfig").tailwindcss.setup(onlyCapabilities)
+
 -- Nix
 require("lspconfig").nixd.setup(onlyCapabilities)
