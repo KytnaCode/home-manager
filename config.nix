@@ -3,7 +3,10 @@
 
   home.sessionPath = [
     "$HOME/.local/bin"
+    "$HOME/.npm-packages/bin"
   ];
+
+  home.file.".npmrc".text = "prefix = \${HOME}/.npm-packages";
 
   dconf.settings = let 
     backgroundImage = ./Background.png;
@@ -18,5 +21,6 @@
 
   home.sessionVariables = {
     EDITOR = "nvim";
+    NODE_PATH = "$HOME/.npm-packages/lib/node_modules";
   };
 }
