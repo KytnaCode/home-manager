@@ -10,6 +10,7 @@
     vim-language-server # Vimscript
     nodePackages_latest.bash-language-server
     nodePackages_latest.typescript-language-server
+    vscode-langservers-extracted # CSS
     nixd
 
     ripgrep # required by telescope live grep

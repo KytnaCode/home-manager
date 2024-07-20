@@ -65,5 +65,8 @@ require("lspconfig").bashls.setup(onlyCapabilities)
 -- Javascript & Typescript
 require("lspconfig").tsserver.setup(onlyCapabilities)
 
+-- CSS
+require("lspconfig").cssls.setup(onlyCapabilities)
+
 -- Nix
 require("lspconfig").nixd.setup(onlyCapabilities)
