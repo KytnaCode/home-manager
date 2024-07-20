@@ -18,5 +18,6 @@
     # Development
     nodejs_20
     typescript
+    mongosh
   ];
 }
