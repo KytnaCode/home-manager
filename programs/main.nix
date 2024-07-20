@@ -11,5 +11,6 @@
     ./go.nix
     ./ranger.nix
     ./git.nix
+    ./jq.nix
   ];
 }
