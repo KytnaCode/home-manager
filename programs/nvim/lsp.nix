@@ -12,6 +12,7 @@
     nodePackages_latest.typescript-language-server
     vscode-langservers-extracted # CSS
     tailwindcss-language-server
+    nodePackages_latest.svelte-language-server
     nixd
 
     ripgrep # required by telescope live grep

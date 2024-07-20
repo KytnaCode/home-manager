@@ -71,5 +71,8 @@ require("lspconfig").cssls.setup(onlyCapabilities)
 -- Tailwind CSS
 require("lspconfig").tailwindcss.setup(onlyCapabilities)
 
+-- Svelte
+require("lspconfig").svelte.setup(onlyCapabilities)
+
 -- Nix
 require("lspconfig").nixd.setup(onlyCapabilities)
