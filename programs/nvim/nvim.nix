@@ -193,6 +193,11 @@
         config = setupEmpty "auto-session";
         type = "lua";
       }
+      {
+        plugin = pkgs.vimPlugins.nvim-autopairs;
+        config = readConfig "nvim-autopairs.lua";
+        type = "lua";
+      }
     ];
   };
 }
