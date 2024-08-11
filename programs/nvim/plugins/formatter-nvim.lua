@@ -21,19 +21,19 @@ require("formatter").setup({
     },
     javascript = {
       require("formatter.filetypes.javascript").prettierd,
-      require("formatter.filetypes.javascript").eslint_d,
+      require("formatter.filetypes.javascript").eslint,
     },
     javascriptreact = {
       require("formatter.filetypes.javascriptreact").prettierd,
-      require("formatter.filetypes.javascriptreact").eslint_d,
+      require("formatter.filetypes.javascriptreact").eslint,
     },
     typescript = {
       require("formatter.filetypes.typescript").prettierd,
-      require("formatter.filetypes.typescript").eslint_d,
+      require("formatter.filetypes.typescript").eslint,
     },
     typescriptreact = {
       require("formatter.filetypes.typescriptreact").prettierd,
-      require("formatter.filetypes.typescriptreact").eslint_d,
+      require("formatter.filetypes.typescriptreact").eslint,
     },
     html = {
       require("formatter.filetypes.html").prettierd,
