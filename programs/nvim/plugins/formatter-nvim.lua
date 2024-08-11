@@ -38,6 +38,12 @@ require("formatter").setup({
     html = {
       require("formatter.filetypes.html").prettierd,
     },
+    svelte = {
+      require("formatter.filetypes.svelte").prettier,
+    },
+    css = {
+      require("formatter.filetypes.css").prettierd,
+    },
   },
 })
 
