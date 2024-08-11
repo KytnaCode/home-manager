@@ -3,8 +3,8 @@ require("lint").linters_by_ft = {
   go = { "golangcilint" },
   vim = { "vint" },
   bash = { "shellcheck", "shellharden" },
-  javascript = { "eslint_d" },
-  typescript = { "eslint_d" },
+  javascript = { "eslint" },
+  typescript = { "eslint" },
 }
 
 vim.api.nvim_create_autocmd({ "BufWritePre" }, {
