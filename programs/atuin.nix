@@ -5,5 +5,8 @@
     settings = {
       auto_sync = false;
     };
+    flags = [
+      "--disable-up-arrow"
+    ];
   };
 }
