@@ -5,6 +5,9 @@ require("lint").linters_by_ft = {
   bash = { "shellcheck", "shellharden" },
   javascript = { "eslint" },
   typescript = { "eslint" },
+  svelte = { "eslint" },
+  css = { "eslint" },
+  html = { "eslint" },
 }
 
 vim.api.nvim_create_autocmd({ "BufWritePre" }, {
