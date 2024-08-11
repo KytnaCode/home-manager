@@ -188,6 +188,11 @@
         config = setupNoOptions "go";
         type = "lua";
       }
+      { 
+        plugin = pkgs.vimPlugins.auto-session;
+        config = setupEmpty "auto-session";
+        type = "lua";
+      }
     ];
   };
 }
