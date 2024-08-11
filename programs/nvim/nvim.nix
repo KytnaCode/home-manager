@@ -198,6 +198,11 @@
         config = readConfig "nvim-autopairs.lua";
         type = "lua";
       }
+      {
+        plugin = pkgs.vimPlugins.nvim-ts-autotag;
+        config = setupNoOptions "nvim-ts-autotag";
+        type = "lua";
+      }
     ];
   };
 }
