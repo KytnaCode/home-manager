@@ -11,6 +11,7 @@
 
     # Util
     distrobox
+    moreutils
 
     # Fonts
     (nerdfonts.override { fonts = [ "AnonymousPro" ]; })
